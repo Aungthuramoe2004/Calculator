@@ -1,0 +1,90 @@
+.container{
+    background-color:aqua ;
+    width: fit-content;
+    height: fit-content;
+    margin: 100px;
+    padding: 80px;
+    background-position: 100px;
+    border: 10px solid blueviolet;
+    border-radius: 20px;
+    box-shadow: 0 0 25px blueviolet,0 0 30px pink;
+}
+
+.fn{
+    display: column;
+    padding: 10px;
+    color: darkblue;
+
+}
+
+.sn{
+    display: column;
+    padding: 10px;
+    color: darkblue;
+}
+ h3{
+    color: darkblue;
+    display: column;
+ }
+
+.input input{
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.input input:hover{
+    color: darkblue;
+    background-color:white;
+    box-shadow: 0 0 15px darkblue,0 0 20px palevioletred;
+}
+
+.input select{
+    color: darkblue;
+    display: column;
+    border:4px solid violet ;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.input select:hover{
+    box-shadow: 0 0 45px violet,0 0 60px gold;
+}
+
+.btn input{
+    color: darkblue;
+    display: column;
+    border:3px solid violet ;
+    border-radius: 4px;
+    padding: 8px;
+    margin:20px;
+}
+
+.btn input:hover{
+    box-shadow: 0 0 25px greenyellow,0 0 40px palevioletred;
+    background-color:greenyellow;
+    display: inline-block;
+}
+
+option{
+    color: red;
+    background-color: black;
+}
+
+.result{
+    background-color:palegoldenrod;
+    padding: 10px;
+    display: flex;
+    color: blue;
+    border: 2px solid black;
+    border-radius: 5px;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+}
+
+span{
+    color: red;
+    display: block;
+    padding: 5px;
+}
+ 

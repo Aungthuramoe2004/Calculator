@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatort</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title" id="title">
+            <h2>Calculator</h2>
+        </div>
+        <class class="result" id="result">0000</class>
+        <div class="input">
+            <h3>First Number</h3>
+            <input type="number" id="fn">
+        </div>
+        <span id="num1error">*Please set a number*</span>
+        <div class="input">
+            <h3>Second Number</h3>
+            <input type="number" id="sn">
+        </div>
+        <span  id="num2error">*Please set a number*</span>
+        <div class="input">
+            <h3>Operator</h3>
+            <select class="user input" id="op">
+                <option value="dropdown">Dropdown
+                </option>
+               <option value="+">+
+               </option>
+               <option value="-">-</option>
+               <option value="*">*</option>
+               <option value="/">/</option>
+               <option value="%">%</option>
+            </select>
+        </div>
+        <span id="operatorerror">*Please set a operator*</span>
+        <br>
+        <div class="btn">
+            <input type="submit" id="submit">
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
